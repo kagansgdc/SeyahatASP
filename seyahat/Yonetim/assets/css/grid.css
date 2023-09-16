@@ -1,0 +1,24 @@
+.gridview {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    .gridview th {
+        background-color: #FFC0CB; /* Pembe arka plan */
+        color: #FFFFFF; /* Beyaz metin rengi */
+        padding: 8px;
+    }
+
+    .gridview td {
+        background-color: #FFFFFF; /* Beyaz arka plan */
+        color: #000000; /* Siyah metin rengi */
+        padding: 8px;
+    }
+
+    .gridview tr:nth-child(even) {
+        background-color: #F8F8F8; /* Açýk pembe arka plan */
+    }
+
+    .gridview tr:hover {
+        background-color: #FFD3E6; /* Pembe arka plan hücre üzerine gelindiðinde */
+    }
